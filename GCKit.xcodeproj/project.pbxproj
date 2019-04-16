@@ -26,6 +26,7 @@
 		0461F3D92265819200AD5E7A /* FSGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3D52265819200AD5E7A /* FSGradientButton.m */; };
 		0461F3DA2265819200AD5E7A /* FSCornerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3D62265819200AD5E7A /* FSCornerButton.m */; };
 		0461F3DF2265856D00AD5E7A /* GCCornerGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3DE2265856D00AD5E7A /* GCCornerGradientView.m */; };
+		ACD13E94868A28CABF2D6B97 /* libPods-GCKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C717D482F596FCFB1E7249FD /* libPods-GCKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,9 @@
 		0461F3DC2265844F00AD5E7A /* GCKitFunctionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCKitFunctionHeader.h; sourceTree = "<group>"; };
 		0461F3DD2265856D00AD5E7A /* GCCornerGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCCornerGradientView.h; sourceTree = "<group>"; };
 		0461F3DE2265856D00AD5E7A /* GCCornerGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCCornerGradientView.m; sourceTree = "<group>"; };
+		56A4D15F929F40823DC2D2D4 /* Pods-GCKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCKit.release.xcconfig"; path = "Target Support Files/Pods-GCKit/Pods-GCKit.release.xcconfig"; sourceTree = "<group>"; };
+		BE4A893DED9E4FEE389CBEE2 /* Pods-GCKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCKit.debug.xcconfig"; path = "Target Support Files/Pods-GCKit/Pods-GCKit.debug.xcconfig"; sourceTree = "<group>"; };
+		C717D482F596FCFB1E7249FD /* libPods-GCKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GCKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD13E94868A28CABF2D6B97 /* libPods-GCKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +91,8 @@
 			children = (
 				0461F38C226579A900AD5E7A /* GCKit */,
 				0461F38B226579A900AD5E7A /* Products */,
+				5C79563A9703B0C18399088F /* Pods */,
+				5228F61F9043D4A6095FACCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,8 +145,8 @@
 		0461F3A522657CCB00AD5E7A /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				0461F3A622657CCB00AD5E7A /* NSString+URL.m */,
 				0461F3A722657CCB00AD5E7A /* NSString+URL.h */,
+				0461F3A622657CCB00AD5E7A /* NSString+URL.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -222,6 +229,23 @@
 			path = UIButton;
 			sourceTree = "<group>";
 		};
+		5228F61F9043D4A6095FACCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C717D482F596FCFB1E7249FD /* libPods-GCKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C79563A9703B0C18399088F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE4A893DED9E4FEE389CBEE2 /* Pods-GCKit.debug.xcconfig */,
+				56A4D15F929F40823DC2D2D4 /* Pods-GCKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -229,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0461F3A0226579AA00AD5E7A /* Build configuration list for PBXNativeTarget "GCKit" */;
 			buildPhases = (
+				51841F2719428CB8B9F195CD /* [CP] Check Pods Manifest.lock */,
 				0461F386226579A900AD5E7A /* Sources */,
 				0461F387226579A900AD5E7A /* Frameworks */,
 				0461F388226579A900AD5E7A /* Resources */,
@@ -286,6 +311,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51841F2719428CB8B9F195CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GCKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0461F386226579A900AD5E7A /* Sources */ = {
@@ -447,11 +497,13 @@
 		};
 		0461F3A1226579AA00AD5E7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4A893DED9E4FEE389CBEE2 /* Pods-GCKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MXD693LHGK;
 				INFOPLIST_FILE = GCKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,11 +516,13 @@
 		};
 		0461F3A2226579AA00AD5E7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A4D15F929F40823DC2D2D4 /* Pods-GCKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MXD693LHGK;
 				INFOPLIST_FILE = GCKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

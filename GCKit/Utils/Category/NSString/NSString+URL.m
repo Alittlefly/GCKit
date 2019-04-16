@@ -12,7 +12,6 @@
 + (NSString *)addqueryItems:(NSDictionary *)dict Url:(NSString *)url Paths:(NSString *)path, ... {
     
     url = [NSString addQueryItemWithDictionary:dict Url:url];
-
     if (!url) {
         return nil;
     }
@@ -116,9 +115,6 @@
                                                                                                                      (__bridge CFStringRef)encodedString,
                                                                                                                      CFSTR(""),
                                                                                                                      CFStringConvertNSStringEncodingToEncoding(NSUTF8StringEncoding));
-    
-    NSString *decode = [self stringByRemovingPercentEncoding];
-    
     return decodedString;
 }
 
