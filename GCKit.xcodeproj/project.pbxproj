@@ -13,6 +13,19 @@
 		0461F397226579AA00AD5E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0461F396226579AA00AD5E7A /* Assets.xcassets */; };
 		0461F39A226579AA00AD5E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0461F398226579AA00AD5E7A /* LaunchScreen.storyboard */; };
 		0461F39D226579AA00AD5E7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F39C226579AA00AD5E7A /* main.m */; };
+		0461F3AB22657CCB00AD5E7A /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3A622657CCB00AD5E7A /* NSString+URL.m */; };
+		0461F3AC22657CCB00AD5E7A /* UIViewController+BackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3A922657CCB00AD5E7A /* UIViewController+BackItem.m */; };
+		0461F3B022657D9700AD5E7A /* UITabBar+Container.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3AF22657D9700AD5E7A /* UITabBar+Container.m */; };
+		0461F3BC22657DE600AD5E7A /* GCBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3B722657DE600AD5E7A /* GCBaseView.m */; };
+		0461F3C52265812C00AD5E7A /* GCContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3C02265812C00AD5E7A /* GCContainerController.m */; };
+		0461F3C62265812C00AD5E7A /* UIViewController+GCContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3C42265812C00AD5E7A /* UIViewController+GCContainerController.m */; };
+		0461F3CC2265814300AD5E7A /* GCCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3C92265814300AD5E7A /* GCCornerView.m */; };
+		0461F3CD2265814300AD5E7A /* GCGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3CA2265814300AD5E7A /* GCGradientView.m */; };
+		0461F3D72265819200AD5E7A /* FSCornerGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3D02265819200AD5E7A /* FSCornerGradientButton.m */; };
+		0461F3D82265819200AD5E7A /* MRCornerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3D12265819200AD5E7A /* MRCornerButton.m */; };
+		0461F3D92265819200AD5E7A /* FSGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3D52265819200AD5E7A /* FSGradientButton.m */; };
+		0461F3DA2265819200AD5E7A /* FSCornerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3D62265819200AD5E7A /* FSCornerButton.m */; };
+		0461F3DF2265856D00AD5E7A /* GCCornerGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3DE2265856D00AD5E7A /* GCCornerGradientView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,35 @@
 		0461F399226579AA00AD5E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0461F39B226579AA00AD5E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0461F39C226579AA00AD5E7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0461F3A622657CCB00AD5E7A /* NSString+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URL.m"; sourceTree = "<group>"; };
+		0461F3A722657CCB00AD5E7A /* NSString+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URL.h"; sourceTree = "<group>"; };
+		0461F3A922657CCB00AD5E7A /* UIViewController+BackItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackItem.m"; sourceTree = "<group>"; };
+		0461F3AA22657CCB00AD5E7A /* UIViewController+BackItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackItem.h"; sourceTree = "<group>"; };
+		0461F3AE22657D9700AD5E7A /* UITabBar+Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Container.h"; sourceTree = "<group>"; };
+		0461F3AF22657D9700AD5E7A /* UITabBar+Container.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Container.m"; sourceTree = "<group>"; };
+		0461F3B422657DE600AD5E7A /* GCBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCBaseView.h; sourceTree = "<group>"; };
+		0461F3B722657DE600AD5E7A /* GCBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCBaseView.m; sourceTree = "<group>"; };
+		0461F3C02265812C00AD5E7A /* GCContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCContainerController.m; sourceTree = "<group>"; };
+		0461F3C12265812C00AD5E7A /* UIViewController+GCContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GCContainerController.h"; sourceTree = "<group>"; };
+		0461F3C22265812C00AD5E7A /* GCContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCContainerController.h; sourceTree = "<group>"; };
+		0461F3C32265812C00AD5E7A /* GCSideControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCSideControllerProtocol.h; sourceTree = "<group>"; };
+		0461F3C42265812C00AD5E7A /* UIViewController+GCContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GCContainerController.m"; sourceTree = "<group>"; };
+		0461F3C82265814300AD5E7A /* GCGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCGradientView.h; sourceTree = "<group>"; };
+		0461F3C92265814300AD5E7A /* GCCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCornerView.m; sourceTree = "<group>"; };
+		0461F3CA2265814300AD5E7A /* GCGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCGradientView.m; sourceTree = "<group>"; };
+		0461F3CB2265814300AD5E7A /* GCCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCornerView.h; sourceTree = "<group>"; };
+		0461F3CF2265819200AD5E7A /* FSGradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSGradientButton.h; sourceTree = "<group>"; };
+		0461F3D02265819200AD5E7A /* FSCornerGradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCornerGradientButton.m; sourceTree = "<group>"; };
+		0461F3D12265819200AD5E7A /* MRCornerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCornerButton.m; sourceTree = "<group>"; };
+		0461F3D22265819200AD5E7A /* FSCornerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCornerButton.h; sourceTree = "<group>"; };
+		0461F3D32265819200AD5E7A /* MRCornerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCornerButton.h; sourceTree = "<group>"; };
+		0461F3D42265819200AD5E7A /* FSCornerGradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCornerGradientButton.h; sourceTree = "<group>"; };
+		0461F3D52265819200AD5E7A /* FSGradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSGradientButton.m; sourceTree = "<group>"; };
+		0461F3D62265819200AD5E7A /* FSCornerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCornerButton.m; sourceTree = "<group>"; };
+		0461F3DB226583BA00AD5E7A /* GCKit-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCKit-umbrella.h"; sourceTree = "<group>"; };
+		0461F3DC2265844F00AD5E7A /* GCKitFunctionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCKitFunctionHeader.h; sourceTree = "<group>"; };
+		0461F3DD2265856D00AD5E7A /* GCCornerGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCCornerGradientView.h; sourceTree = "<group>"; };
+		0461F3DE2265856D00AD5E7A /* GCCornerGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCCornerGradientView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +100,7 @@
 		0461F38C226579A900AD5E7A /* GCKit */ = {
 			isa = PBXGroup;
 			children = (
+				0461F3A322657C7900AD5E7A /* Utils */,
 				0461F38D226579A900AD5E7A /* AppDelegate.h */,
 				0461F38E226579A900AD5E7A /* AppDelegate.m */,
 				0461F390226579A900AD5E7A /* ViewController.h */,
@@ -69,6 +112,114 @@
 				0461F39C226579AA00AD5E7A /* main.m */,
 			);
 			path = GCKit;
+			sourceTree = "<group>";
+		};
+		0461F3A322657C7900AD5E7A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0461F3DB226583BA00AD5E7A /* GCKit-umbrella.h */,
+				0461F3BE226580F800AD5E7A /* Graphics */,
+				0461F3B122657DBB00AD5E7A /* Base */,
+				0461F3A422657C9C00AD5E7A /* Category */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0461F3A422657C9C00AD5E7A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0461F3AD22657D9700AD5E7A /* UITabbar */,
+				0461F3A522657CCB00AD5E7A /* NSString */,
+				0461F3A822657CCB00AD5E7A /* UIViewController */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0461F3A522657CCB00AD5E7A /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				0461F3A622657CCB00AD5E7A /* NSString+URL.m */,
+				0461F3A722657CCB00AD5E7A /* NSString+URL.h */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		0461F3A822657CCB00AD5E7A /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0461F3AA22657CCB00AD5E7A /* UIViewController+BackItem.h */,
+				0461F3A922657CCB00AD5E7A /* UIViewController+BackItem.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		0461F3AD22657D9700AD5E7A /* UITabbar */ = {
+			isa = PBXGroup;
+			children = (
+				0461F3AE22657D9700AD5E7A /* UITabBar+Container.h */,
+				0461F3AF22657D9700AD5E7A /* UITabBar+Container.m */,
+			);
+			path = UITabbar;
+			sourceTree = "<group>";
+		};
+		0461F3B122657DBB00AD5E7A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0461F3B422657DE600AD5E7A /* GCBaseView.h */,
+				0461F3B722657DE600AD5E7A /* GCBaseView.m */,
+				0461F3DC2265844F00AD5E7A /* GCKitFunctionHeader.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0461F3BE226580F800AD5E7A /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				0461F3CE2265819200AD5E7A /* UIButton */,
+				0461F3BF2265812C00AD5E7A /* Container */,
+				0461F3C72265814300AD5E7A /* UIView */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		0461F3BF2265812C00AD5E7A /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				0461F3C12265812C00AD5E7A /* UIViewController+GCContainerController.h */,
+				0461F3C42265812C00AD5E7A /* UIViewController+GCContainerController.m */,
+				0461F3C02265812C00AD5E7A /* GCContainerController.m */,
+				0461F3C22265812C00AD5E7A /* GCContainerController.h */,
+				0461F3C32265812C00AD5E7A /* GCSideControllerProtocol.h */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		0461F3C72265814300AD5E7A /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				0461F3CB2265814300AD5E7A /* GCCornerView.h */,
+				0461F3C92265814300AD5E7A /* GCCornerView.m */,
+				0461F3C82265814300AD5E7A /* GCGradientView.h */,
+				0461F3CA2265814300AD5E7A /* GCGradientView.m */,
+				0461F3DD2265856D00AD5E7A /* GCCornerGradientView.h */,
+				0461F3DE2265856D00AD5E7A /* GCCornerGradientView.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		0461F3CE2265819200AD5E7A /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				0461F3D42265819200AD5E7A /* FSCornerGradientButton.h */,
+				0461F3D02265819200AD5E7A /* FSCornerGradientButton.m */,
+				0461F3CF2265819200AD5E7A /* FSGradientButton.h */,
+				0461F3D52265819200AD5E7A /* FSGradientButton.m */,
+				0461F3D22265819200AD5E7A /* FSCornerButton.h */,
+				0461F3D62265819200AD5E7A /* FSCornerButton.m */,
+				0461F3D32265819200AD5E7A /* MRCornerButton.h */,
+				0461F3D12265819200AD5E7A /* MRCornerButton.m */,
+			);
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +292,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0461F3D92265819200AD5E7A /* FSGradientButton.m in Sources */,
+				0461F3D82265819200AD5E7A /* MRCornerButton.m in Sources */,
 				0461F392226579A900AD5E7A /* ViewController.m in Sources */,
 				0461F39D226579AA00AD5E7A /* main.m in Sources */,
+				0461F3DA2265819200AD5E7A /* FSCornerButton.m in Sources */,
+				0461F3C52265812C00AD5E7A /* GCContainerController.m in Sources */,
+				0461F3D72265819200AD5E7A /* FSCornerGradientButton.m in Sources */,
+				0461F3CD2265814300AD5E7A /* GCGradientView.m in Sources */,
 				0461F38F226579A900AD5E7A /* AppDelegate.m in Sources */,
+				0461F3B022657D9700AD5E7A /* UITabBar+Container.m in Sources */,
+				0461F3C62265812C00AD5E7A /* UIViewController+GCContainerController.m in Sources */,
+				0461F3CC2265814300AD5E7A /* GCCornerView.m in Sources */,
+				0461F3AB22657CCB00AD5E7A /* NSString+URL.m in Sources */,
+				0461F3DF2265856D00AD5E7A /* GCCornerGradientView.m in Sources */,
+				0461F3AC22657CCB00AD5E7A /* UIViewController+BackItem.m in Sources */,
+				0461F3BC22657DE600AD5E7A /* GCBaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

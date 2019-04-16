@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GCKit-umbrella.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    GCCornerGradientView *hh = [[GCCornerGradientView alloc] init];
+    [hh setFrame:CGRectMake(200,300, 100, 40)];
+    [hh setCorner:(UIRectCornerTopLeft | UIRectCornerBottomRight)];
+    [hh setColors:@[(id)UIColor.redColor.CGColor,(id)UIColor.blueColor.CGColor]];
+    [self.view addSubview:hh];
+    
 }
 
 
