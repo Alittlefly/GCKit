@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0437815F228D0D1C00249771 /* UIView+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437815B228D0D1C00249771 /* UIView+Loading.m */; };
+		04378160228D0D1C00249771 /* UIViewController+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437815C228D0D1C00249771 /* UIViewController+Loading.m */; };
+		04378161228D0D1C00249771 /* FSLoadingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437815D228D0D1C00249771 /* FSLoadingController.m */; };
+		04378162228D0D1C00249771 /* FSLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437815E228D0D1C00249771 /* FSLoadingView.m */; };
+		04378168228D0D6500249771 /* MRPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04378164228D0D6500249771 /* MRPageContentView.m */; };
+		04378169228D0D6500249771 /* MRSegmentTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04378165228D0D6500249771 /* MRSegmentTitleView.m */; };
+		04378173228D0DD300249771 /* MRBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437816B228D0DD200249771 /* MRBaseController.m */; };
+		04378175228D0DD300249771 /* MRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04378171228D0DD200249771 /* MRTabBarController.m */; };
+		04378176228D0DD300249771 /* MRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04378172228D0DD200249771 /* MRNavigationController.m */; };
 		0461F38F226579A900AD5E7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F38E226579A900AD5E7A /* AppDelegate.m */; };
 		0461F392226579A900AD5E7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F391226579A900AD5E7A /* ViewController.m */; };
 		0461F395226579A900AD5E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0461F393226579A900AD5E7A /* Main.storyboard */; };
@@ -30,6 +39,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04378157228D0D1C00249771 /* UIView+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Loading.h"; sourceTree = "<group>"; };
+		04378158228D0D1C00249771 /* UIViewController+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Loading.h"; sourceTree = "<group>"; };
+		04378159228D0D1C00249771 /* FSLoadingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLoadingController.h; sourceTree = "<group>"; };
+		0437815A228D0D1C00249771 /* FSLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSLoadingView.h; sourceTree = "<group>"; };
+		0437815B228D0D1C00249771 /* UIView+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Loading.m"; sourceTree = "<group>"; };
+		0437815C228D0D1C00249771 /* UIViewController+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Loading.m"; sourceTree = "<group>"; };
+		0437815D228D0D1C00249771 /* FSLoadingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLoadingController.m; sourceTree = "<group>"; };
+		0437815E228D0D1C00249771 /* FSLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLoadingView.m; sourceTree = "<group>"; };
+		04378164228D0D6500249771 /* MRPageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRPageContentView.m; sourceTree = "<group>"; };
+		04378165228D0D6500249771 /* MRSegmentTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRSegmentTitleView.m; sourceTree = "<group>"; };
+		04378166228D0D6500249771 /* MRPageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPageContentView.h; sourceTree = "<group>"; };
+		04378167228D0D6500249771 /* MRSegmentTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRSegmentTitleView.h; sourceTree = "<group>"; };
+		0437816B228D0DD200249771 /* MRBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRBaseController.m; sourceTree = "<group>"; };
+		0437816C228D0DD200249771 /* MRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTabBarController.h; sourceTree = "<group>"; };
+		0437816E228D0DD200249771 /* MRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNavigationController.h; sourceTree = "<group>"; };
+		0437816F228D0DD200249771 /* MRBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRBaseController.h; sourceTree = "<group>"; };
+		04378171228D0DD200249771 /* MRTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTabBarController.m; sourceTree = "<group>"; };
+		04378172228D0DD200249771 /* MRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNavigationController.m; sourceTree = "<group>"; };
 		0461F38A226579A900AD5E7A /* GCKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0461F38D226579A900AD5E7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0461F38E226579A900AD5E7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,6 +113,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04378156228D0D1C00249771 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				04378157228D0D1C00249771 /* UIView+Loading.h */,
+				04378158228D0D1C00249771 /* UIViewController+Loading.h */,
+				04378159228D0D1C00249771 /* FSLoadingController.h */,
+				0437815A228D0D1C00249771 /* FSLoadingView.h */,
+				0437815B228D0D1C00249771 /* UIView+Loading.m */,
+				0437815C228D0D1C00249771 /* UIViewController+Loading.m */,
+				0437815D228D0D1C00249771 /* FSLoadingController.m */,
+				0437815E228D0D1C00249771 /* FSLoadingView.m */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		04378163228D0D6500249771 /* ScorellTitle */ = {
+			isa = PBXGroup;
+			children = (
+				04378164228D0D6500249771 /* MRPageContentView.m */,
+				04378165228D0D6500249771 /* MRSegmentTitleView.m */,
+				04378166228D0D6500249771 /* MRPageContentView.h */,
+				04378167228D0D6500249771 /* MRSegmentTitleView.h */,
+			);
+			path = ScorellTitle;
+			sourceTree = "<group>";
+		};
+		0437816A228D0DD200249771 /* BaseKit */ = {
+			isa = PBXGroup;
+			children = (
+				0437816B228D0DD200249771 /* MRBaseController.m */,
+				0437816C228D0DD200249771 /* MRTabBarController.h */,
+				0437816E228D0DD200249771 /* MRNavigationController.h */,
+				0437816F228D0DD200249771 /* MRBaseController.h */,
+				04378171228D0DD200249771 /* MRTabBarController.m */,
+				04378172228D0DD200249771 /* MRNavigationController.m */,
+			);
+			path = BaseKit;
+			sourceTree = "<group>";
+		};
 		0461F381226579A900AD5E7A = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +238,7 @@
 		0461F3B122657DBB00AD5E7A /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				0437816A228D0DD200249771 /* BaseKit */,
 				0461F3B422657DE600AD5E7A /* GCBaseView.h */,
 				0461F3B722657DE600AD5E7A /* GCBaseView.m */,
 				0461F3DC2265844F00AD5E7A /* GCKitFunctionHeader.h */,
@@ -182,6 +249,8 @@
 		0461F3BE226580F800AD5E7A /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				04378163228D0D6500249771 /* ScorellTitle */,
+				04378156228D0D1C00249771 /* LoadingView */,
 				0461F3CE2265819200AD5E7A /* UIButton */,
 				0461F3BF2265812C00AD5E7A /* Container */,
 				0461F3C72265814300AD5E7A /* UIView */,
@@ -342,22 +411,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04378169228D0D6500249771 /* MRSegmentTitleView.m in Sources */,
 				0461F3D92265819200AD5E7A /* FSGradientButton.m in Sources */,
 				0461F3D82265819200AD5E7A /* MRCornerButton.m in Sources */,
 				0461F392226579A900AD5E7A /* ViewController.m in Sources */,
+				0437815F228D0D1C00249771 /* UIView+Loading.m in Sources */,
+				04378162228D0D1C00249771 /* FSLoadingView.m in Sources */,
 				0461F39D226579AA00AD5E7A /* main.m in Sources */,
 				0461F3DA2265819200AD5E7A /* FSCornerButton.m in Sources */,
 				0461F3C52265812C00AD5E7A /* GCContainerController.m in Sources */,
+				04378168228D0D6500249771 /* MRPageContentView.m in Sources */,
 				0461F3D72265819200AD5E7A /* FSCornerGradientButton.m in Sources */,
+				04378161228D0D1C00249771 /* FSLoadingController.m in Sources */,
 				0461F3CD2265814300AD5E7A /* GCGradientView.m in Sources */,
+				04378175228D0DD300249771 /* MRTabBarController.m in Sources */,
 				0461F38F226579A900AD5E7A /* AppDelegate.m in Sources */,
 				0461F3B022657D9700AD5E7A /* UITabBar+Container.m in Sources */,
 				0461F3C62265812C00AD5E7A /* UIViewController+GCContainerController.m in Sources */,
 				0461F3CC2265814300AD5E7A /* GCCornerView.m in Sources */,
 				0461F3AB22657CCB00AD5E7A /* NSString+URL.m in Sources */,
+				04378173228D0DD300249771 /* MRBaseController.m in Sources */,
 				0461F3DF2265856D00AD5E7A /* GCCornerGradientView.m in Sources */,
+				04378176228D0DD300249771 /* MRNavigationController.m in Sources */,
 				0461F3AC22657CCB00AD5E7A /* UIViewController+BackItem.m in Sources */,
 				0461F3BC22657DE600AD5E7A /* GCBaseView.m in Sources */,
+				04378160228D0D1C00249771 /* UIViewController+Loading.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
