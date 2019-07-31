@@ -35,6 +35,7 @@
 		0461F3D92265819200AD5E7A /* FSGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3D52265819200AD5E7A /* FSGradientButton.m */; };
 		0461F3DA2265819200AD5E7A /* FSCornerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3D62265819200AD5E7A /* FSCornerButton.m */; };
 		0461F3DF2265856D00AD5E7A /* GCCornerGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461F3DE2265856D00AD5E7A /* GCCornerGradientView.m */; };
+		04B87ECF229F83C5008F59FA /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B87ECE229F83C5008F59FA /* UIView+Snapshot.m */; };
 		ACD13E94868A28CABF2D6B97 /* libPods-GCKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C717D482F596FCFB1E7249FD /* libPods-GCKit.a */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +97,8 @@
 		0461F3DC2265844F00AD5E7A /* GCKitFunctionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCKitFunctionHeader.h; sourceTree = "<group>"; };
 		0461F3DD2265856D00AD5E7A /* GCCornerGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCCornerGradientView.h; sourceTree = "<group>"; };
 		0461F3DE2265856D00AD5E7A /* GCCornerGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCCornerGradientView.m; sourceTree = "<group>"; };
+		04B87ECD229F83C5008F59FA /* UIView+Snapshot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		04B87ECE229F83C5008F59FA /* UIView+Snapshot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
 		56A4D15F929F40823DC2D2D4 /* Pods-GCKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCKit.release.xcconfig"; path = "Target Support Files/Pods-GCKit/Pods-GCKit.release.xcconfig"; sourceTree = "<group>"; };
 		BE4A893DED9E4FEE389CBEE2 /* Pods-GCKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCKit.debug.xcconfig"; path = "Target Support Files/Pods-GCKit/Pods-GCKit.debug.xcconfig"; sourceTree = "<group>"; };
 		C717D482F596FCFB1E7249FD /* libPods-GCKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GCKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,6 +204,7 @@
 		0461F3A422657C9C00AD5E7A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				04B87ECC229F8367008F59FA /* UIView */,
 				0461F3AD22657D9700AD5E7A /* UITabbar */,
 				0461F3A522657CCB00AD5E7A /* NSString */,
 				0461F3A822657CCB00AD5E7A /* UIViewController */,
@@ -296,6 +300,15 @@
 				0461F3D12265819200AD5E7A /* MRCornerButton.m */,
 			);
 			path = UIButton;
+			sourceTree = "<group>";
+		};
+		04B87ECC229F8367008F59FA /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				04B87ECD229F83C5008F59FA /* UIView+Snapshot.h */,
+				04B87ECE229F83C5008F59FA /* UIView+Snapshot.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		5228F61F9043D4A6095FACCE /* Frameworks */ = {
@@ -435,6 +448,7 @@
 				04378176228D0DD300249771 /* MRNavigationController.m in Sources */,
 				0461F3AC22657CCB00AD5E7A /* UIViewController+BackItem.m in Sources */,
 				0461F3BC22657DE600AD5E7A /* GCBaseView.m in Sources */,
+				04B87ECF229F83C5008F59FA /* UIView+Snapshot.m in Sources */,
 				04378160228D0D1C00249771 /* UIViewController+Loading.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

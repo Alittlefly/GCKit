@@ -9,24 +9,21 @@
 #import "GCBaseView.h"
 
 @implementation GCBaseView
+
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     if (self = [super initWithCoder:aDecoder]) {
         [self createSubviews];
     }
     return self;
 }
+
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         [self createSubviews];
     }
     return self;
 }
-- (instancetype)init {
-    if (self = [super init]) {
-        [self createSubviews];
-    }
-    return self;
-}
+
 - (void)createSubviews {}
 
 @end
