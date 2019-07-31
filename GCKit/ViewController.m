@@ -24,6 +24,8 @@
     [hh setColors:@[(id)UIColor.redColor.CGColor,(id)UIColor.blueColor.CGColor]];
     [self.view addSubview:hh];
     
+    [self.view gc_showLoading];
+    
 }
 
 

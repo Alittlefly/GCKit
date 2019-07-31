@@ -16,7 +16,4 @@
 
 + (NSString *)addQueryItemWithDictionary:(NSDictionary *)dict Url:(NSString *)url;
 
-- (NSString *)URLEncodedString;
-
-- (NSString *)URLDecodedString;
 @end

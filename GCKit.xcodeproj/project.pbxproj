@@ -114,10 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				04378157228D0D1C00249771 /* UIView+Loading.h */,
+				0437815B228D0D1C00249771 /* UIView+Loading.m */,
 				04378158228D0D1C00249771 /* UIViewController+Loading.h */,
 				04378159228D0D1C00249771 /* FSLoadingController.h */,
 				0437815A228D0D1C00249771 /* FSLoadingView.h */,
-				0437815B228D0D1C00249771 /* UIView+Loading.m */,
 				0437815C228D0D1C00249771 /* UIViewController+Loading.m */,
 				0437815D228D0D1C00249771 /* FSLoadingController.m */,
 				0437815E228D0D1C00249771 /* FSLoadingView.m */,
