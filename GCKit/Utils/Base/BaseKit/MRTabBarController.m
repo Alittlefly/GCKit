@@ -15,8 +15,8 @@
 @implementation MRTabBarController
 - (instancetype)init {
     if (self = [super init]) {
-        [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:HexRGB(0xAAAAAA),NSFontAttributeName:[UIFont systemFontOfSize:10]} forState:(UIControlStateNormal)];
-        [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:HexRGB(0x474747),NSFontAttributeName:[UIFont systemFontOfSize:10]} forState:(UIControlStateSelected)];
+        [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:HexRGB_GC(0xAAAAAA),NSFontAttributeName:[UIFont systemFontOfSize:10]} forState:(UIControlStateNormal)];
+        [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:HexRGB_GC(0x474747),NSFontAttributeName:[UIFont systemFontOfSize:10]} forState:(UIControlStateSelected)];
         
         [[UITabBar appearance] setBarTintColor:[UIColor whiteColor]];
         [[UITabBar appearance] setTranslucent:NO];

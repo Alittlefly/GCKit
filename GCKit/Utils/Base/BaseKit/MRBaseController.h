@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "UIViewController+BackItem.h"
+#import "GCKitFunctionHeader.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

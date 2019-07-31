@@ -7,6 +7,8 @@
 //
 
 #import "FSLoadingView.h"
+#import "GCKitFunctionHeader.h"
+
 //#import "UIView+Animation.h"
 @interface FSLoadingView()
 @property(nonatomic,strong)UILabel *titleLabel;
@@ -103,7 +105,7 @@
 
     [self addSubview:self.indictor];
     [self.loadingBack setBackgroundColor:[UIColor clearColor]];
-    [self setBackgroundColor:HexRGBAlpha(0x000000, 0.0)];
+    [self setBackgroundColor:HexRGBAlpha_GC(0x000000, 0.0)];
 }
 - (void)layoutSubviews {
     [super layoutSubviews];

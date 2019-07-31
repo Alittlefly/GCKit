@@ -36,7 +36,7 @@
     _itemMargin = 20;
     _selectIndex = 0;
     _titleSelectColor = [UIColor blackColor];
-    _titleNormalColor = HexRGB(0xA3A3A3);
+    _titleNormalColor = HexRGB_GC(0xA3A3A3);
     _titleFont = [UIFont systemFontOfSize:16 weight:(UIFontWeightSemibold)];
     _indicatorColor = _titleSelectColor;
     _indicatorExtension = 0.f;

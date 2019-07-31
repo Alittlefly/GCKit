@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GCKitFunctionHeader.h"
 
 typedef enum : NSUInteger {
     MRIndicatorTypeDefault,//默认与按钮长度相同

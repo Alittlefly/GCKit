@@ -7,7 +7,6 @@
 //
 
 #import "MRBaseController.h"
-#import <UINavigationBar+Awesome.h>
 
 @interface MRBaseController ()
 @property(nonatomic,strong)UILabel *titleLabel;
@@ -18,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.view setBackgroundColor:HexRGB(0xF4F4F4)];
+    [self.view setBackgroundColor:HexRGB_GC(0xF4F4F4)];
     
     self.navigationItem.titleView = self.titleLabel;
     [self createSubviews];
@@ -27,8 +26,6 @@
     [super viewWillAppear:animated];
     
     [self.titleLabel setTextColor:[self preferredTitleColor]];
-    
-    [self.navigationController.navigationBar lt_setBackgroundColor:[self preferredNavbarColor]];
 }
 - (void)setTitle:(NSString *)title {
     [self.titleLabel setText:title];
