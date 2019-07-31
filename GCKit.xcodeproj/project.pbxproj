@@ -11,8 +11,6 @@
 		04378160228D0D1C00249771 /* UIViewController+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437815C228D0D1C00249771 /* UIViewController+Loading.m */; };
 		04378161228D0D1C00249771 /* FSLoadingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437815D228D0D1C00249771 /* FSLoadingController.m */; };
 		04378162228D0D1C00249771 /* FSLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437815E228D0D1C00249771 /* FSLoadingView.m */; };
-		04378168228D0D6500249771 /* MRPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04378164228D0D6500249771 /* MRPageContentView.m */; };
-		04378169228D0D6500249771 /* MRSegmentTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04378165228D0D6500249771 /* MRSegmentTitleView.m */; };
 		04378173228D0DD300249771 /* MRBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437816B228D0DD200249771 /* MRBaseController.m */; };
 		04378175228D0DD300249771 /* MRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04378171228D0DD200249771 /* MRTabBarController.m */; };
 		04378176228D0DD300249771 /* MRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04378172228D0DD200249771 /* MRNavigationController.m */; };
@@ -48,10 +46,6 @@
 		0437815C228D0D1C00249771 /* UIViewController+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Loading.m"; sourceTree = "<group>"; };
 		0437815D228D0D1C00249771 /* FSLoadingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLoadingController.m; sourceTree = "<group>"; };
 		0437815E228D0D1C00249771 /* FSLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSLoadingView.m; sourceTree = "<group>"; };
-		04378164228D0D6500249771 /* MRPageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRPageContentView.m; sourceTree = "<group>"; };
-		04378165228D0D6500249771 /* MRSegmentTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRSegmentTitleView.m; sourceTree = "<group>"; };
-		04378166228D0D6500249771 /* MRPageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPageContentView.h; sourceTree = "<group>"; };
-		04378167228D0D6500249771 /* MRSegmentTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRSegmentTitleView.h; sourceTree = "<group>"; };
 		0437816B228D0DD200249771 /* MRBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRBaseController.m; sourceTree = "<group>"; };
 		0437816C228D0DD200249771 /* MRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTabBarController.h; sourceTree = "<group>"; };
 		0437816E228D0DD200249771 /* MRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNavigationController.h; sourceTree = "<group>"; };
@@ -129,17 +123,6 @@
 				0437815E228D0D1C00249771 /* FSLoadingView.m */,
 			);
 			path = LoadingView;
-			sourceTree = "<group>";
-		};
-		04378163228D0D6500249771 /* ScorellTitle */ = {
-			isa = PBXGroup;
-			children = (
-				04378164228D0D6500249771 /* MRPageContentView.m */,
-				04378165228D0D6500249771 /* MRSegmentTitleView.m */,
-				04378166228D0D6500249771 /* MRPageContentView.h */,
-				04378167228D0D6500249771 /* MRSegmentTitleView.h */,
-			);
-			path = ScorellTitle;
 			sourceTree = "<group>";
 		};
 		0437816A228D0DD200249771 /* BaseKit */ = {
@@ -253,7 +236,6 @@
 		0461F3BE226580F800AD5E7A /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
-				04378163228D0D6500249771 /* ScorellTitle */,
 				04378156228D0D1C00249771 /* LoadingView */,
 				0461F3CE2265819200AD5E7A /* UIButton */,
 				0461F3BF2265812C00AD5E7A /* Container */,
@@ -424,7 +406,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04378169228D0D6500249771 /* MRSegmentTitleView.m in Sources */,
 				0461F3D92265819200AD5E7A /* FSGradientButton.m in Sources */,
 				0461F3D82265819200AD5E7A /* MRCornerButton.m in Sources */,
 				0461F392226579A900AD5E7A /* ViewController.m in Sources */,
@@ -433,7 +414,6 @@
 				0461F39D226579AA00AD5E7A /* main.m in Sources */,
 				0461F3DA2265819200AD5E7A /* FSCornerButton.m in Sources */,
 				0461F3C52265812C00AD5E7A /* GCContainerController.m in Sources */,
-				04378168228D0D6500249771 /* MRPageContentView.m in Sources */,
 				0461F3D72265819200AD5E7A /* FSCornerGradientButton.m in Sources */,
 				04378161228D0D1C00249771 /* FSLoadingController.m in Sources */,
 				0461F3CD2265814300AD5E7A /* GCGradientView.m in Sources */,

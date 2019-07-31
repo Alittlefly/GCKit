@@ -6,5 +6,4 @@ target 'GCKit' do
   # use_frameworks!
 
   # Pods for GCKit
-  pod 'Masonry'
 end
