@@ -285,9 +285,9 @@
 		04914B5A22F2BC6500D2B232 /* BaseCore */ = {
 			isa = PBXGroup;
 			children = (
+				0461F3DC2265844F00AD5E7A /* GCKitFunctionHeader.h */,
 				0461F3B422657DE600AD5E7A /* GCBaseView.h */,
 				0461F3B722657DE600AD5E7A /* GCBaseView.m */,
-				0461F3DC2265844F00AD5E7A /* GCKitFunctionHeader.h */,
 			);
 			path = BaseCore;
 			sourceTree = "<group>";

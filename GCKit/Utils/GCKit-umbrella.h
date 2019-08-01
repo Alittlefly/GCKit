@@ -36,4 +36,6 @@
 // UIViewController
 #import "UIViewController+BackItem.h"
 
+#import "UIView+Loading.h"
+
 #endif /* GCKit_umbrella_h */
