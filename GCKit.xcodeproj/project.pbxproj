@@ -113,11 +113,11 @@
 		04378156228D0D1C00249771 /* LoadingView */ = {
 			isa = PBXGroup;
 			children = (
+				0437815A228D0D1C00249771 /* FSLoadingView.h */,
 				04378157228D0D1C00249771 /* UIView+Loading.h */,
 				0437815B228D0D1C00249771 /* UIView+Loading.m */,
 				04378158228D0D1C00249771 /* UIViewController+Loading.h */,
 				04378159228D0D1C00249771 /* FSLoadingController.h */,
-				0437815A228D0D1C00249771 /* FSLoadingView.h */,
 				0437815C228D0D1C00249771 /* UIViewController+Loading.m */,
 				0437815D228D0D1C00249771 /* FSLoadingController.m */,
 				0437815E228D0D1C00249771 /* FSLoadingView.m */,
@@ -225,10 +225,8 @@
 		0461F3B122657DBB00AD5E7A /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				04914B5A22F2BC6500D2B232 /* BaseCore */,
 				0437816A228D0DD200249771 /* BaseKit */,
-				0461F3B422657DE600AD5E7A /* GCBaseView.h */,
-				0461F3B722657DE600AD5E7A /* GCBaseView.m */,
-				0461F3DC2265844F00AD5E7A /* GCKitFunctionHeader.h */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -282,6 +280,16 @@
 				0461F3D12265819200AD5E7A /* MRCornerButton.m */,
 			);
 			path = UIButton;
+			sourceTree = "<group>";
+		};
+		04914B5A22F2BC6500D2B232 /* BaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				0461F3B422657DE600AD5E7A /* GCBaseView.h */,
+				0461F3B722657DE600AD5E7A /* GCBaseView.m */,
+				0461F3DC2265844F00AD5E7A /* GCKitFunctionHeader.h */,
+			);
+			path = BaseCore;
 			sourceTree = "<group>";
 		};
 		04B87ECC229F8367008F59FA /* UIView */ = {
