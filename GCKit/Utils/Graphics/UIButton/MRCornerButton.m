@@ -11,13 +11,6 @@
 @implementation MRCornerButton{
     CAShapeLayer *_layer;
 }
-- (instancetype)init {
-    if (self = [super init]) {
-        _layer = (CAShapeLayer *)self.layer;
-        [self configLayer];
-    }
-    return self;
-}
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {

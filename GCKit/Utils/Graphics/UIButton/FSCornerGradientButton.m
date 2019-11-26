@@ -23,12 +23,6 @@
     }
     return self;
 }
-- (instancetype)init {
-    if(self = [super init]){
-        [self configMask];
-    }
-    return self;
-}
 - (void)configMask {
     _maskShapLayer = [CAShapeLayer layer];
     _maskShapLayer.fillMode = kCAFillModeForwards;

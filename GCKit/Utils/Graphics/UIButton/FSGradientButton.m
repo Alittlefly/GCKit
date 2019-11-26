@@ -29,20 +29,12 @@
     }
     return self;
 }
-- (instancetype)init {
-    if (self = [super init]) {
-         _gradienLayer = (CAGradientLayer *)self.layer;
-        [_gradienLayer setStartPoint:CGPointMake(0, 0)];
-        [_gradienLayer setEndPoint:CGPointMake(0, 1)];
-    }
-    return self;
-}
 - (void)setColors:(NSArray *)colors {
     _colors = colors;
     [_gradienLayer setColors:colors];
 }
 - (void)setDiration:(FSLinerDiration)diration {
-    if (_diration == FSLinerDirationH) {
+    if (diration == FSLinerDirationH) {
         [_gradienLayer setStartPoint:CGPointMake(0, 0)];
         [_gradienLayer setEndPoint:CGPointMake(1, 0)];
     }else{
